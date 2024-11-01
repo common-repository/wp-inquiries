@@ -1,0 +1,35 @@
+.inquiries-form input[type="email"],
+.inquiries-form input[type="text"] {
+    width: 100%;
+}
+
+.inquiries-form .response {
+    cursor: pointer;
+    padding: 8px 15px;
+    transition: all 0.3s;
+}
+
+.inquiries-form .response.error {
+    background: #f2dede;
+    border: 1px solid #b94a48;
+    color: #b94a48;
+}
+
+.inquiries-form .response.error:hover {
+    background: #da4f49;
+}
+
+.inquiries-form .response.success {
+    background: #dff0d8;
+    border: 1px solid #468847;
+    color: #468847;
+}
+
+.inquiries-form .response.success:hover {
+    background: #5bb75b;
+}
+
+.inquiries-form .response.error:hover,
+.inquiries-form .response.success:hover {
+    color: #fff;
+}
